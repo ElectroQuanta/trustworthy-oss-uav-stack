@@ -1,0 +1,12 @@
+#+TITLE: Trustworthy Open-Source Reference SW stack for UAV applications
+#+AUTHOR: José Pires
+#+DATE: [2025-10-23 qui 11:08]
+#+EMAIL: a50178@alunos.uminho.pt
+
+#+LATEX_COMPILER: xelatex
+
+* TOC :noexport::TOC_3:
+- [[#preamble][Preamble]]
+
+* Preamble
+The current repository holds the main assets to the MSc thesis with the same name. 
