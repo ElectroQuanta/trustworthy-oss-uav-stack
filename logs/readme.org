@@ -1,0 +1,17 @@
+#+TITLE: Logs
+#+AUTHOR: José Pires
+#+DATE: [2025-10-23 qui 15:43]
+#+EMAIL: a50178@alunos.uminho.pt
+
+#+LATEX_COMPILER: xelatex
+
+* TOC :noexport::TOC_3:
+- [[#preamble][Preamble]]
+
+* Preamble
+Contains the logs for system validation:
+1) boot-uspfs.txt: USPFS: Boot log (excerpt)
+2) rpi-fw-validation-1.txt: SSPFS: Mailbox supervisor validation - PX4 VM boot log (excerpt)
+3) rpi-fw-validation-2.txt: SSPFS: Mailbox supervisor validation - Cam VM boot log (excerpt)
+4) sspfs-boot-cam.txt: SSPFS: Cam VM boot log (excerpt)
+5) sspfs-boot-px4.txt: SSPFS: PX4 VM boot log (excerpt)
