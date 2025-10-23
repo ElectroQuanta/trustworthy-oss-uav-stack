@@ -1,0 +1,28 @@
+arm_64bit=1
+arm_boost=1
+enable_gic=1
+armstub=bl31.bin
+kernel=u-boot.bin
+
+# Disable Bluetooth and enable UART5 (GPIO 12 and 13)
+dtoverlay=disable-bt
+dtoverlay=uart5
+# dtoverlay=uart1
+# uart_2ndstage=1 # only works with UART0 or UART1
+
+# JTAG config
+# Disable pull downs
+# gpio=22-27=np
+## Enable jtag pins (i.e. GPIO22-GPIO27)
+# enable_jtag_gpio=1
+
+## Enable SPI and I2C
+# dtoverlay=sc16is752-spi1
+# dtparam=i2c_arm=on,i2c_arm_baudrate=400000
+# dtparam=spi=on
+# dtparam=i2c_vc=on
+
+## Other configurations
+#camera_auto_detect=1
+dtoverlay=vc4-kms-v3d,cma-512
+#auto_initramfs=1
