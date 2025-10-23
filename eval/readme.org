@@ -1,0 +1,22 @@
+#+TITLE: Evaluation
+#+AUTHOR: José Pires
+#+DATE: [2025-10-23 qui 15:29]
+#+EMAIL: a50178@alunos.uminho.pt
+
+#+LATEX_COMPILER: xelatex
+
+* TOC :noexport::TOC_3:
+- [[#preamble][Preamble]]
+
+* Preamble
+The current directory contains the evaluation of the trustworthy open-source SW
+stack for UAVs.
+1) kmod/: implements malicious kernel modules
+2) userspace/: implements malicious userspace application
+3) mibench/: runs mibench benchmarking and evaluates the results
+4) cam/: evaluates FPS performance degradation - Bao vs baremetal
+5) px4/: evaluates scheduling overhead - Bao vs baremetal
+6) uspfs/: evaluates:
+   1) FPS and performance degradation: SSPFS vs USPFS
+   2) scheduling overhead: SSPFS vs USPFS
+7) logAnalysis/: analyzes flight logs to benchmark the UAV flight behavior
