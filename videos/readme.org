@@ -1,0 +1,23 @@
+#+TITLE: Videos
+#+AUTHOR: José Pires
+#+DATE: [2025-10-23 qui 12:11]
+#+EMAIL: a50178@alunos.uminho.pt
+
+#+LATEX_COMPILER: xelatex
+
+* TOC :noexport::TOC_3:
+- [[#preamble][Preamble]]
+
+* Preamble
+The current directory contains the videos related to the UAV flight tests:
+1) sspfs-flight-setup.mkv: shows all the steps to setup the SSPFS
+2) sspfs-corruption.mkv: shows all available malicious kernel modules and
+   exemplifies its execution on the SSPFS
+3) sspfs-flight-fpv.mkv: shows the SSPFS behavior when a malicious kernel
+   module is executed (system and FPV view) - video streaming and comms stop
+4) sspfs-flight-myView.mp4: shows the SSPFS behavior when a malicious kernel
+   module is executed (external recording) - but UAV lands safely
+5) uspfs-crash-fpv-trim.mkv: shows the USPFS behavior when a malicious kernel
+   module is executed (system and FPV view) - video streaming and comms stop
+6) uspfs-crash-myView.mp4: shows the USPFS behavior when a malicious kernel
+   module is executed (external recording) - UAV crashes
