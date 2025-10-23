@@ -1,0 +1,17 @@
+#+TITLE: Source code
+#+AUTHOR: José Pires
+#+DATE: [2025-10-23 qui 15:50]
+#+EMAIL: a50178@alunos.uminho.pt
+
+#+LATEX_COMPILER: xelatex
+
+* TOC :noexport::TOC_3:
+- [[#preamble][Preamble]]
+
+* Preamble
+Contains the code snippets used for the implementation of the present work. 
+- platform.h: patch required to enable UART5 on PilotPi
+- init.c: Bao's initialization procedure example
+- hypercall.c: extending Bao's hypercall to handle RPi mailbox transactions
+- rpi_firmware.c: implementation of the mailbox's hypercall handler in Bao
+- linux-rpi-fw.c: patch the Linux's mailbox firmware device driver for the RPi platform
