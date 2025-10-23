@@ -1,0 +1,23 @@
+#+TITLE: Flight Log analysis
+#+AUTHOR: José Pires
+#+DATE: [2025-10-23 qui 12:01]
+#+EMAIL: a50178@alunos.uminho.pt
+
+#+LATEX_COMPILER: xelatex
+
+* TOC :noexport::TOC_3:
+- [[#preamble][Preamble]]
+
+* Preamble
+To analyze the flight logs, execute ~cmpLogs.py~
+
+1) Create a virtual environment and activate it
+2) Install the requirements
+3) Run the script
+
+#+begin_src bash
+  python -m venv log-venv
+  source log-venv/bin/activate
+  pip install -r requirements.txt
+  python cmpLogs.py
+#+end_src
