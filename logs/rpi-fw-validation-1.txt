@@ -1,0 +1,68 @@
+                                                  zmp : screen
+[    2.394108] raspberrypi-firmware soc:firmware: HYPCALL END: x0 = 0xc6000002, x1 = 0x2, x2 = 0x0, ret = 0x0
+[    2.416322] raspberrypi-firmware soc:firmware: HYPCALL START: x0 = 0xc6000002, x1 = 0x1, x2 = 0x0, ret = 0x0
+[    2.438094] raspberrypi-firmware soc:firmware: Firmware message: 0xd0000008
+[    2.450144] raspberrypi-firmware soc:firmware: Firmware transaction completed successfully: 0xd0000008
+[    2.470095] raspberrypi-firmware soc:firmware: HYPCALL END: x0 = 0xc6000002, x1 = 0x2, x2 = 0x0, ret = 0x0
+[    2.599543] raspberrypi-firmware soc:firmware: HYPCALL START: x0 = 0xc6000002, x1 = 0x1, x2 = 0x0, ret = 0x0
+[    2.522995] raspberrypi-firmware soc:firmware: Firmware message: 0xd0000008
+[    2.538636] raspberrypi-firmware soc:firmware: Firmware transaction completed successfully: 0xd0000008
+[    2.558100] raspberrypi-firmware soc:firmware: HYPCALL END: x0 = 0xc6000002, x1 = 0x2, x2 = 0x0, ret = 0x0
+[    2.586126] fe2OlaOO.serial: ttyAMAS at MMIO 0xfe201a00 (irq = 24, base_baud = 0) is a PL011 rev2
+[    2.602144] printk: console [ttyAMAS] enabled
+[    2.602144] printk: console [ttyAMA5] enabled
+[    2.622088] printk: bootconsole [p111] disabled
+[    2.622088] printk: bootconsole [p111] disabled
+[    2.642680] uart-p1011 fe201000.serial: there is not valid maps for state default
+[    2.658360] uart-p1011 fe201000.serial: cts_event_workaround enabled
+[    2.674445] fe201000.serial: ttyAMAO at MMIO 0xfe201000 (irq = 24, base_baud = 0) is a PL011 rev2
+[    2.693306] raspberrypi-firmware soc:firmware: HYPCALL START: x0 = 0xc6000002, x1 = 0x1, x2 = 0x0, ret = 0x0
+[    2.718124] raspberrypi-firmware soc:firmware: Firmware message: 0xd0000008
+[    2.733485] raspberrypi-firmware soc:firmware: Firmware transaction completed successfully: 0xd0000008
+[    2.759552] spi1.0: ttySCO) at I/O 0x0 (irq = 27, base_baud = 921600) is a SC16IS752
+[    2.762197] raspberrypi-firmware soc:firmware: HYPCALL END: x0 = 0xc6000002,
+x1 = 0x2, x2 = 0x0, ret = 0x0
+[    2.778563] spi1.0: ttySC1 at I/O 0x1 (irq = 27, base_baud = 921600) is a SC16IS752
+[    2.799155] raspberrypi-firmware soc:firmware: HYPCALL START: x0 =
+0xc6000002, x1 = 0x1, x2 = 0x0, ret = 0x0
+[    2.815855] clk: Not disabling unused clocks
+[    2.829234] raspberrypi-firmware soc:firmware: Firmware message: 0xd0000008
+[    2.830146] ALSA device list:
+[    2.833122]	No soundcards found.
+[    2.842159] raspberrypi-firmware soc:firmware: Firmware transaction completed successfully: 0xd0000008
+[    2.858101] raspberrypi-firmware soc:firmware: HYPCALL END: x0 = 0xc6000002, x1 = 0x2, x2 = 0x0, ret = 0x0
+[    2.878128] raspberrypi-firmware soc:firmware: HYPCALL START: x0 = 0xc6000002, x1 = 0x1, x2 = 0x0, ret = 0x0
+[    2.894093] raspberrypi-firmware soc:firmware: Firmware message: 0xd0001008
+[    2.906170] raspberrypi-firmware soc:firmware: Firmware transaction completed successfully: 0xd0001008
+[    2.926095] raspberrypi-firmware soc:firmware: HYPCALL END: x0 = 0xc6000002, x1 = 0x2, x2 = 0x0, ret = 0x0
+[    2.946140] raspberrypi-firmware soc:firmware: HYPCALL START: x0 = 0xc6000002, x1 = 0x1, x2 = 0x0, ret = 0x0
+[    2.966160] raspberrypi-firmware soc:firmware: Firmware message: 0xd0001008
+[    2.978216] raspberrypi-firmware soc:firmware: Firmware transaction completed successfully: 0xd0001008
+[    2.998213] raspberrypi-firmware soc:firmware: HYPCALL END: x0 = 0xc6000002, x1 = 0x2, x2 = 0x0, ret = 0x0
+[    3.018155] raspberrypi-firmware soc:firmware: HYPCALL START: x0 = 0xc6000002, x1 = 0x1, x2 = 0x0, ret = 0x0
+[    3.034100] raspberrypi-firmware soc:firmware: Firmware message: 0xd0000008
+[    3.047355] raspberrypi-firmware soc:firmware: Firmware transaction completed successfully: 0xd0000008
+[    3.066093] raspberrypi-firmware soc:firmware: HYPCALL END: x0 = 0xc6000002, x1 = 0x2, x2 = 0x0, ret = 0x0
+[    3.086118] raspberrypi-firmware soc:firmware: HYPCALL START: x0 = 0xc6000002, x1 = 0x1, x2 = 0x0, ret = 0x0
+[    3.106098] raspberrypi-firmware soc:firmware: Firmware message: 0xd0001008
+[    3.119433] raspberrypi-firmware soc:firmware: Firmware transaction completed successfully: 0xd0001008
+[    3.138103] raspberrypi-firmware soc:firmware: HYPCALL END: x0 = 0xc6000002, x1 = 0x2, x2 = 0x0, ret = 0x0
+[    3.158163] raspberrypi-firmware soc:firmware: HYPCALL START: x0 = 0xc6000002, x1 = 0x1, x2 = 0x0, ret = 0x0
+[    3.174182] raspberrypi-firmware soc:firmware: Firmware message: 0xd0000008
+[    3.190514] raspberrypi-firmware soc:firmware: Firmware transaction completed successfully: 0xd0000008
+[    3.210149] raspberrypi-firmware soc:firmware: HYPCALL END: x0 = 0xc6000002, x1 = 0x2, x2 = 0x0, ret = 0x0
+[    4.588345] uart-p1911 fe201a00.serial: no DMA platform data
+[    4.642586] Freeing unused kernel memory: 43840K
+[    4.647447] Run /init as init process
+Starting syslogd: OK Starting klogd: OK Running sysctl: OK Starting network: OK Starting crond: OK Starting dropbear sshd: [ 4.792642] NET: Registered PF_INET6 protocol family
+[    4.798514] Segment Routing with IPv6
+[    4.802210] In-situ OAM (IOAM) with IPv6
+OK
+Welcome to Buildroot
+buildroot login: root
+Password:
+# [    33.914999] vcc-sd: disabling
+[    33.917112] raspberrypi-firmware soc:firmware: HYPCALL START: x0 = 0xc6000002, x1 = 0x1, x2 = 0x0, ret = 0x0
+[    33.927265] raspberrypi-firmware soc:firmware: Firmware message: 0xd0000008
+[    33.934755] raspberrypi-firmware soc:firmware: Firmware transaction completed successfully: 0xd0000008
+[    33.944204] raspberrypi-firmware soc:firmware: HYPCALL END: x0 = 0xc6000002, x1 = 0x2, x2 = 0x0, ret = 0x0

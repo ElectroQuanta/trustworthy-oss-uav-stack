@@ -1,0 +1,49 @@
+## Starting application at 0x00080000 ...
+Bao Hypervisor
+[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x410fd083]
+[    0.000000] Linux version 6.6.51 (zmp@zmp-DTx) (aarch64-buildroot-linux-gnu-gcc.br_real (Buildroot 
+2024.08.2-dirty) 12.4.0, GNU ld (GNU Binutils) 2.40) #2 SMP PREEMPT Sat Dec 28 04:43:27 WET 2024
+[    0.000000] KASLR disabled due to lack of seed
+[    0.000000] Machine model: Raspberry Pi 4 Model B Rev 1.5
+[    0.000000] efi: UEFI not found.
+[    0.000000] [Firmware Bug]: Kernel image misaligned at boot, please fix your bootloader!
+[    0.000000] Reserved memory: created CMA memory pool at 0x00000000fa000000, size 32 MiB
+[    0.000000] OF: reserved mem: initialized node linux,cma, compatible id shared-dma-pool
+[    0.000000] OF: reserved mem: 0x00000000fa000000..0x00000000fbffffff (32768 KiB) map reusable linux
+,cma
+[    0.000000] earlycon: pl11 at MMIO 0x00000000fe201a00 (options '115200n8')
+[    0.000000] printk: bootconsole [pl11] enabled
+[    0.000000] NUMA: No NUMA configuration found
+[    0.000000] NUMA: Faking a node at [mem 0x000000000b400000-0x00000000fbffffff]
+[    0.000000] NUMA: NODE_DATA [mem 0xf99a89c0-0xf99aafff]
+[    0.000000] Zone ranges:
+[    0.000000]   DMA      [mem 0x000000000b400000-0x000000001fffffff]
+[    0.000000]   DMA32    [mem 0x0000000020000000-0x00000000fbffffff]
+[    0.000000]   Normal   empty
+...
+[    1.489917] raspberrypi-firmware soc:firmware: Attached to firmware from 2024-09-13T15:58:42, variant start
+[    1.509903] raspberrypi-firmware soc:firmware: Firmware hash is ddfba3e3c234500025b545512b4b214f28e453e9
+[    1.564849] fe201a00.serial: ttyAMA5 at MMIO 0xfe201a00 (irq = 24, base_baud = 0) is a PL011 rev2
+[    1.585874] printk: console [ttyAMA5] enabled
+[    1.585874] printk: console [ttyAMA5] enabled
+[    1.601814] printk: bootconsole [pl11] disabled
+[    1.601814] printk: bootconsole [pl11] disabled
+[    1.638406] uart-pl011 fe201000.serial: there is not valid maps for state default
+[    1.654075] uart-pl011 fe201000.serial: cts_event_workaround enabled
+[    1.666180] fe201000.serial: ttyAMA0 at MMIO 0xfe201000 (irq = 24, base_baud = 0) is a PL011 rev2
+[    1.711113] spi1.0: ttySC0 at I/O 0x0 (irq = 27, base_baud = 921600) is a SC16IS752
+[    1.726642] spi1.0: ttySC1 at I/O 0x1 (irq = 27, base_baud = 921600) is a SC16IS752
+[    3.801428] uart-pl011 fe201a00.serial: no DMA platform data
+[    3.855379] Freeing unused kernel memory: 43840K
+[    3.860243] Run /init as init process
+Starting syslogd: OK
+Starting klogd: OK
+Running sysctl: OK
+Starting network: OK
+Starting crond: OK
+Starting dropbear sshd: [    4.104327] NET: Registered PF_INET6 protocol family
+[    4.111199] Segment Routing with IPv6
+[    4.114987] In-situ OAM (IOAM) with IPv6
+OK
+
+Welcome to Buildroot

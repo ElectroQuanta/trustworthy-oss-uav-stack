@@ -1,0 +1,30 @@
+                                                 (root) 192.168.1.59
+[    16.618543] raspberrypi-firmware soc:firmware: HYPCALL START: x0 = 0xc6000002, x1 = 0x1, x2 = 0x0, ret = 0x0
+[    16.618580] raspberrypi-firmware soc:firmware: Firmware message: 0xe3480008
+[    16.622791] raspberrypi-firmware soc:firmware: Firmware transaction completed successfully: 0xe3480008
+[    16.622808] raspberrypi-firmware soc:firmware: HYPCALL END: x0 = 0xc6000002, x1 = 0x2, x2 = 0x0, ret = 0x0
+[    16.622827] raspberrypi-firmware soc:firmware: HYPCALL START: x0 = 0xc6000002, x1 = 0x1, x2 = 0x0, ret = 0x0
+[    16.622838] raspberrypi-firmware soc:firmware: Firmware message: 0xe3480008
+[    16.622873] raspberrypi-firmware soc:firmware: Firmware transaction completed successfully: 0xe3480008
+[    16.622886] raspberrypi-firmware soc:firmware: HYPCALL END: x0 = 0xc6000002, x1 = 0x2, x2 = 0x0, ret = 0x0
+[    16.628783] raspberrypi-firmware soc:firmware: HYPCALL START: x0 = 0xc6000002, x1 = 0x1, x2 = 0x0, ret = 0x0
+[    16.628798] raspberrypi-firmware soc:firmware: Firmware message: 0xe3480008
+[    16.631927] raspberrypi-firmware soc:firmware: Firmware transaction completed successfully: 0xe3480008
+[    16.631952] raspberrypi-firmware soc:firmware: HYPCALL END: x0 = 0xc6000002, x1 = 0x2, x2 = 0x0, ret = 0x0
+[    16.631985] raspberrypi-firmware soc:firmware: HYPCALL START: x0 = 0xc6000002, x1 = 0x1, x2 = 0x0, ret = 0x0
+[    16.632007] raspberrypi-firmware soc:firmware: Firmware message: 0xe3480008
+[    16.632071] raspberrypi-firmware soc:firmware: Firmware transaction completed successfully: 0xe3480008
+[    16.632097] raspberrypi-firmware soc:firmware: HYPCALL END: x0 = 0xc6000002, x1 = 0x2, x2 = 0x0, ret = 0x0
+[    16.983703] raspberrypi-firmware soc:firmware: HYPCALL START: x0 = 0xc6000002, x1 = 0x1, x2 = 0x0, ret = 0x0
+[    16.983736] raspberrypi-firmware soc:firmware: Firmware message: 0xe3480008
+[    16.987948] raspberrypi-firmware soc:firmware: Firmware transaction completed successfully: 0xe3480008
+[    16.987962] raspberrypi-firmware soc:firmware: HYPCALL END: x0 = 0xc6000002, x1 = 0x2, x2 = 0x0, ret = 0x0
+[    16.987978] raspberrypi-firmware soc:firmware: HYPCALL START: x0 = 0xc6000002, x1 = 0x1, x2 = 0x0, ret = 0x0
+[    16.987989] raspberrypi-firmware soc:firmware: Firmware message: 0xe3480008
+[    16.988019] raspberrypi-firmware soc:firmware: Firmware transaction completed successfully: 0xe3480008
+[    16.988030] raspberrypi-firmware soc:firmware: HYPCALL END: x0 = 0xc6000002, x1 = 0x2, x2 = 0x0, ret = 0x0
+[    17.024791] raspberrypi-firmware soc:firmware: HYPCALL START: x0 = 0xc6000002, x1 = 0x1, x2 = 0x0, ret = 0x0
+[    17.024804] raspberrypi-firmware soc:firmware: Firmware message: 0xe3480008
+[    17.027732] raspberrypi-firmware soc:firmware: Firmware transaction completed successfully: 0xe3480008
+[    17.027763] raspberrypi-firmware soc:firmware: HYPCALL END: x0 = 0xc6000002, x1 = 0x2, x2 = 0x0, ret = 0x0
+[    17.027799] raspberrypi-firmware soc:firmware: HYPCALL START: x0 = 0xc6000002, x1 = 0x1, x2 = 0x0, ret = 0x0

@@ -1,0 +1,23 @@
+[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x410fd083]
+[    0.000000] Linux version 6.6.51 (zmp@zmp-DTx) (aarch64-buildroot-linux-gnu-g
+cc.br_real (Buildroot 2024.08.2-dirty) 13.3.0, GNU ld (GNU Binutils) 2.40) #2 SM
+P PREEMPT Sat Nov 23 00:51:45 WET 2024
+[    0.000000] KASLR disabled due to lack of seed
+[    0.000000] Machine model: Raspberry Pi 4 Model B Rev 1.5
+[    0.000000] efi: UEFI not found.
+[    0.000000] [Firmware Bug]: Kernel image misaligned at boot, please fix your 
+bootloader!
+[    0.000000] Reserved memory: created CMA memory pool at 0x000000000e400000, s
+ize 512 MiB
+[    0.000000] OF: reserved mem: initialized node linux,cma, compatible id share
+d-dma-pool
+[    0.000000] OF: reserved mem: 0x000000000e400000..0x000000002e3fffff (524288 
+KiB) map reusable linux,cma
+[    0.000000] OF: reserved mem: 0x000000003ef646a0..0x000000003ef64a9f (1 KiB) 
+nomap non-reusable nvram@1
+[    0.000000] OF: reserved mem: 0x000000003ef64ae0..0x000000003ef64b15 (0 KiB) 
+nomap non-reusable nvram@0
+[    0.000000] earlycon: pl11 at MMIO 0x00000000fe201a00 (options '115200n8')
+[    0.000000] printk: bootconsole [pl11] enabled
+[    0.000000] NUMA: No NUMA configuration found
+[    0.000000] NUMA: Faking a node at [mem 0x0000000000000000-0x00000001ffffffff
