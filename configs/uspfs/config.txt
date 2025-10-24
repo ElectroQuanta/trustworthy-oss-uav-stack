@@ -1,0 +1,8 @@
+arm_64bit=1 # 64-bit
+enable_gic=1 # enable GIC
+armstub=bl31.bin # 2nd stage bootloader
+kernel=u-boot.bin # 3rd stage bootloader
+
+# Configuration for early firmware console
+dtoverlay=disable-bt # disable bluetooth
+dtoverlay=uart5 # enable UART5
